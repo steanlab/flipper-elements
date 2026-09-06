@@ -170,7 +170,7 @@ typedef struct {
     DialogEx* dialog; FuriTimer* t_splash; FuriTimer* t_exit; char buf[1024]; 
 } App;
 
-// ========================= СПЛЕШ: СТАРТ ========================
+// ========================= splash-screen-entrance ========================
 static void start_splash_draw(Canvas* c, void* m) {
     UNUSED(m);
     canvas_set_color(c, ColorBlack); canvas_draw_box(c, 0, 0, 128, 64); 
@@ -185,7 +185,7 @@ static void s_t_cb(void* ctx) { view_dispatcher_send_custom_event(((App*)ctx)->d
 static void s_en_cb(void* ctx) { furi_timer_start(((App*)ctx)->t_splash, furi_ms_to_ticks(2000)); }
 
 
-// ========================= СПЛЕШ: ВЫХОД ========================
+// ========================= splash-screen-exit ========================
 static void exit_splash_draw(Canvas* c, void* ctx) {
     UNUSED(ctx);
     canvas_set_color(c, ColorBlack); canvas_draw_box(c, 0, 0, 128, 64);
@@ -204,7 +204,7 @@ static void diag_res_cb(DialogExResult r, void* ctx) {
     else if (r == DialogExResultRight) view_dispatcher_switch_to_view(app->disp, VIEW_EXIT_SPLASH);
 }
 
-// ========================== ГЛАВНАЯ СЕТКА ==========================
+// ========================== main-table ==========================
 static void grid_draw(Canvas* canvas, void* _m) {
     ViewModel* model = (ViewModel*)_m;
     canvas_clear(canvas);
@@ -285,7 +285,7 @@ static bool main_ev(void* ctx, uint32_t ev) {
     if (ev == EVENT_START_APP) { view_dispatcher_switch_to_view(a->disp, VIEW_GRID); return true; }
     if (ev == EVENT_FINAL_CLOSE) { view_dispatcher_stop(a->disp); return true; }
     
-    // ОКНО ДЕТАЛЕЙ
+    // element-details
     if (ev == EVENT_SHOW_DETAILS) {
         uint8_t x=0, y=0;
         with_view_model(a->v_grid, ViewModel* m, { x=m->cur_x; y=m->cur_y; }, false);
@@ -307,7 +307,7 @@ static bool main_ev(void* ctx, uint32_t ev) {
             view_dispatcher_switch_to_view(a->disp, VIEW_DETAILS);
         } return true;
     }
-    // ОКНО ИНФО + ДОНАТЫ 
+    // about author
     if (ev == EVENT_SHOW_ABOUT) {
         snprintf(a->buf, sizeof(a->buf), 
                  "Flipper Elements v1.0\n"
