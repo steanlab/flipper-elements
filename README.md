@@ -6,9 +6,13 @@
 
 ## App Screenshots
 <p>
-  <img src="screenshots/screen_1.png" width="192" alt="Main screen">
-  <img src="screenshots/screen_2.png" width="192" alt="Elements list">
-  <img src="screenshots/screen_3.png" width="192" alt="Element details">
+  <img src="screenshots/screen_1.png" width="192">
+  <img src="screenshots/screen_2.png" width="192" alt="App Icon">
+  <img src="screenshots/screen_3.png" width="192" alt="Splash Screen">
+  <img src="screenshots/screen_4.png" width="192" alt="Splash Screen">
+  <img src="screenshots/screen_5.png" width="192" alt="Splash Screen">
+  <img src="screenshots/screen_6.png" width="192" alt="Splash Screen">
+  <img src="screenshots/screen_7.png" width="192" alt="Splash Screen">
 </p>
 
 ## Features
