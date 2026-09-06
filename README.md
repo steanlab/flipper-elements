@@ -13,6 +13,9 @@
   <img src="screenshots/screen_5.png" width="192" alt="Splash Screen">
   <img src="screenshots/screen_6.png" width="192" alt="Splash Screen">
   <img src="screenshots/screen_7.png" width="192" alt="Splash Screen">
+  <img src="screenshots/screen_8.png" width="192" alt="Splash Screen">
+  <img src="screenshots/screen_9.png" width="192" alt="Splash Screen">
+  <img src="screenshots/screen_10.png" width="192" alt="Splash Screen">
 </p>
 
 ## Features
