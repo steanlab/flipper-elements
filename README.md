@@ -5,10 +5,10 @@
 **Author:** Siarhei Besarab (aka steanlab)
 
 ## Features
-* 📊 **Smart Mini-Map:** Navigate precisely through rows and periods.
-* 🧠 **Detailed Insights:** Displays Atomic Weight, Category, Boiling & Melting points, and Quantum configuration.
-* 🕹 **Navigation UI:** Intuitive linear Z-based (Atomic number) chronological traversal.
-* ⚙️ **Performance:** All 119 elements are packed entirely inside the flash memory (`.rodata`). Zero RAM overhead!
+* **Smart Mini-Map:** Navigate precisely through rows and periods.
+* **Detailed Insights:** Displays Atomic Weight, Category, Boiling & Melting points, and Quantum configuration.
+* **Navigation UI:** Intuitive linear Z-based (Atomic number) chronological traversal.
+* **Performance:** All 119 elements are packed entirely inside the flash memory (`.rodata`). Zero RAM overhead!
 
 ## Control Layout 
 * `Up`/`Down`: Spatial vertical jump, dynamically bypassing structural table gaps.
