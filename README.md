@@ -18,6 +18,7 @@
   <img src="screenshots/screen_10.png" width="192">
   <img src="screenshots/screen_11.png" width="192" alt="Flipper Elements exit confirmation screen with No and Yes options">
   <img src="screenshots/screen_12.png" width="192">
+  <img src="screenshots/screen_13.png" width="192">
 </p>
 
 ## Features
