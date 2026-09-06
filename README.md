@@ -5,9 +5,7 @@
 **Author:** Siarhei Besarab (aka steanlab)
 
 ## App Screenshots
-![screen 1](screenshots/screen_1.png)
-![screen 2](screenshots/screen_2.png)
-![screen 3](screenshots/screen_3.png)
+![screen 1](screenshots/screen_1.png)![screen 2](screenshots/screen_2.png)![screen 3](screenshots/screen_3.png)
 
 ## Features
 * **Smart Mini-Map:** Navigate precisely through rows and periods.
