@@ -4,6 +4,10 @@
 
 **Author:** Siarhei Besarab (aka steanlab)
 
+## App Screenshots
+<img width="512" height="256" alt="screen_1" src="https://github.com/user-attachments/assets/33164c07-2efe-46fb-b378-2e2f7f8abe27" />
+
+
 ## Features
 * **Smart Mini-Map:** Navigate precisely through rows and periods.
 * **Detailed Insights:** Displays Atomic Weight, Category, Boiling & Melting points, and Quantum configuration.
