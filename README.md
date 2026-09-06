@@ -6,6 +6,7 @@
 
 ## App Screenshots
 <p>
+  <img src="screenshots/screen_1.png" width="192">
   <img src="screenshots/screen_2.png" width="192" alt="Flipper Elements application icon">
   <img src="screenshots/screen_3.png" width="192" alt="Flipper Elements title screen showing the periodic table of elements">
   <img src="screenshots/screen_4.png" width="192" alt="Flipper Elements periodic table mini-map with the selected element Radium">
