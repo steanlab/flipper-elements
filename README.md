@@ -6,8 +6,6 @@
 
 ## App Screenshots
 <p>
-  <img src="screenshots/screen_1.png" width="192" alt="Flipper Zero main menu with Flipper Elements selected in the Education category">
-  <img src="screenshots/screen_2.png" width="192" alt="App Icon">
   <img src="screenshots/screen_3.png" width="192" alt="Flipper Elements title screen showing the periodic table of elements">
   <img src="screenshots/screen_4.png" width="192" alt="Flipper Elements periodic table mini-map with the selected element Radium">
   <img src="screenshots/screen_5.png" width="192" alt="Radium element information screen showing atomic number, period, group, and atomic mass">
