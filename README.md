@@ -6,16 +6,16 @@
 
 ## App Screenshots
 <p>
-  <img src="screenshots/screen_1.png" width="192">
+  <img src="screenshots/screen_1.png" width="192" alt="Flipper Zero main menu with Flipper Elements selected in the Education category">
   <img src="screenshots/screen_2.png" width="192" alt="App Icon">
-  <img src="screenshots/screen_3.png" width="192" alt="Splash Screen">
-  <img src="screenshots/screen_4.png" width="192" alt="Splash Screen">
-  <img src="screenshots/screen_5.png" width="192" alt="Splash Screen">
-  <img src="screenshots/screen_6.png" width="192" alt="Splash Screen">
-  <img src="screenshots/screen_7.png" width="192" alt="Splash Screen">
-  <img src="screenshots/screen_8.png" width="192" alt="Splash Screen">
-  <img src="screenshots/screen_9.png" width="192" alt="Splash Screen">
-  <img src="screenshots/screen_11.png" width="192" alt="Splash Screen">
+  <img src="screenshots/screen_3.png" width="192" alt="Flipper Elements title screen showing the periodic table of elements">
+  <img src="screenshots/screen_4.png" width="192" alt="Flipper Elements periodic table mini-map with the selected element Radium">
+  <img src="screenshots/screen_5.png" width="192" alt="Radium element information screen showing atomic number, period, group, and atomic mass">
+  <img src="screenshots/screen_6.png" width="192" alt="Radium physical properties screen showing atomic weight, melting point, and boiling point">
+  <img src="screenshots/screen_7.png" width="192" alt="Krypton element information screen with its atomic number, electron configuration, and atomic mass">
+  <img src="screenshots/screen_8.png" width="192" alt="Plutonium element information screen with its atomic number, electron configuration, and atomic mass">
+  <img src="screenshots/screen_9.png" width="192" alt="Flipper Elements application information screen showing version 0.1.0 and author details">
+  <img src="screenshots/screen_11.png" width="192" alt="Flipper Elements exit confirmation screen with No and Yes options">
 </p>
 
 ## Features
